@@ -1,0 +1,63 @@
+/* parte intestazione */
+
+header{
+  margin-bottom: 5px;
+  /* da eliminare */
+  height: 150px;
+  background-color: gray;
+}
+
+/* parte principale */
+
+.container::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.partesx{
+  float: left;
+  width: 30%;
+  /* da eliminare */
+  background-color: gray;
+  height: 400px;
+}
+
+
+.partemid{
+  display: inline-block;
+  width: 35%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  /* da eliminare */
+  background-color: gray;
+  height: 600px;
+}
+
+
+.partedx{
+  float: right;
+  width: 30%;
+}
+
+.sopra{
+  margin-bottom: 5px;
+  /* da eliminare */
+  background-color: gray;
+  height: 250px;
+}
+
+.sotto{
+  /* da eliminare */
+  background-color: gray;
+  height: 250px;
+}
+
+/* parte footer */
+
+
+footer{
+  /* da eliminare */
+  height: 150px;
+  background-color: gray;
+}
