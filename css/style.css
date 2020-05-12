@@ -1,3 +1,8 @@
+.contenitore{
+  width: 80%;
+  margin: 0 auto;
+}
+
 /* parte intestazione */
 
 header{
@@ -25,10 +30,11 @@ header{
 
 
 .partemid{
-  display: inline-block;
+  float: left;
   width: 35%;
   margin-left: 2.5%;
   margin-right: 2.5%;
+  margin-bottom: 5px;
   /* da eliminare */
   background-color: gray;
   height: 600px;
